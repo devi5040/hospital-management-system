@@ -76,7 +76,7 @@ $res = mysqli_query($connect, $query);
     <div class="container my-5">
         <!-- Button trigger modal -->
         <?php
-        if ($email == 'dpraidola@gmail.com') : ?>
+        if ($email == 'prarthanag729@gmail.com') : ?>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addRoomModal">
                     Add Room
@@ -107,7 +107,7 @@ $res = mysqli_query($connect, $query);
                                 </button>
                             <?php endif; ?>
                             <?php
-                            if ($email == 'dpraidola@gmail.com') : ?>
+                            if ($email == 'prarthanag729@gmail.com') : ?>
                                 <button class="btn btn-primary" <?php if ($row['Status'] == 'free') echo 'disabled'; ?>>
                                     <a class="text-light" style="text-decoration: none;" href="./process/processRoomStatus.php?name=delete&roomNumber=<?php echo $roomNo; ?>">Empty Room</a></button>
 
